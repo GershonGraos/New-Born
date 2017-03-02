@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_my_examination_page"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/pink1"
+    tools:context="com.graos.babynew.MakeAnAppointment">
+
+
+    <ImageView
+        app:srcCompat="@mipmap/baby1"
+        android:id="@+id/imageView2"
+        android:layout_width="190dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="@string/text_choose_date"
+        android:gravity="right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textColor="@android:color/background_dark"
+        android:id="@+id/textView2"
+        android:layout_marginBottom="21dp"
+        android:layout_above="@+id/TextChooseDate"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:id="@+id/spinnerExaminations"
+        android:layout_marginBottom="46dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_above="@+id/textView2"
+        android:background="@drawable/spinner_style"
+        android:popupBackground="@android:color/darker_gray"
+        android:backgroundTintMode="screen"
+        android:spinnerMode="dialog"/>
+
+    <Button
+        android:text="@string/button_Submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="19dp"
+        android:background="@drawable/button_style_examination"
+        android:id="@+id/button"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="press_Next"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:id="@+id/TextChooseDate"
+        android:hint="@string/date_text"
+        android:gravity="center"
+        android:elevation="1dp"
+        android:ellipsize="start"
+        android:background="@drawable/spinner_style"
+        android:textSize="21.3sp"
+        tools:ignore="UnusedAttribute"
+        android:layout_marginBottom="54dp"
+        android:layout_above="@+id/button"
+        android:layout_centerHorizontal="true"
+        android:onClick="Set_Date_Examination"/>
+
+    <TextView
+        android:text="@string/text_choose_examination"
+        android:gravity="right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textColor="@android:color/background_dark"
+        android:layout_marginTop="18dp"
+        android:layout_below="@+id/imageView2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>

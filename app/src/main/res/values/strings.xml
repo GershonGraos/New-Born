@@ -1,0 +1,44 @@
+<resources>
+
+    <!-- LoginPage  -->
+    <string name="app_name">New Baby</string>
+    <string name="name_view">:שם היולדת</string>
+    <string name="name_text">שם היולדת</string>
+    <string name="date_view">תאריך וסת אחרון:</string>
+    <string name="date_text">dd/mm/yyyy</string>
+    <string name="accept_button">אישור</string>
+
+    <!-- MainPage  -->
+    <string name="next_exam_view"> :הבדיקה הבאה</string>
+    <string name="week_view"> :הנך נמצאת בשבוע</string>
+    <string name="weight_view"> :משקל התינוק הממוצע</string>
+    <string name="since_view"> :ניתן לקבוע מתאריך</string>
+    <string name="till_view"> :עד תאריך</string>
+    <string name="birth_view"> :תאריך לידה משוער</string>
+    <string name="hello_view"> ,שלום</string>
+
+    <string name="all_exams_button">הבדיקות הנדרשות</string>
+    <string name="sign_out_button">יציאה</string>
+    <string name="button_make_exam">קביעת תור</string>
+    <string name="button_my_exams">בדיקות שקבעתי</string>
+
+    <!-- MakeAnAppointment  -->
+    <string name="button_Submit">שמור והמשך</string>
+    <string name="text_choose_examination">בחרית בדיקה</string>
+    <string name="text_choose_date">קביעת תאריך</string>
+    <string name="spinnerstr">Choose an item</string>
+    <string-array name="spinner_array">
+        <item>בדיקות דם ושתן</item>
+        <item>אולטרה סאונד</item>
+        <item>שקיפות עורפית</item>
+        <item>סקירה מוקדמת</item>
+        <item>חלבון עוברי</item>
+        <item>מי שפיר</item>
+        <item>סקירת מערכות</item>
+        <item>סוכרת הריונות</item>
+    </string-array>
+
+    <!-- ListAppointments  -->
+    <string name="button_back_main_page">חזור</string>
+
+</resources>

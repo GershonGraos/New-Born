@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.graos.babynew">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/baby3"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".LoginPage" android:theme="@style/NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".MainPage" android:theme="@style/NoActionBar">
+        </activity>
+
+        <activity
+            android:name=".MakeAnAppointment">
+        </activity>
+
+        <activity
+            android:name=".AppointmentsList">
+        </activity>
+
+        <activity
+            android:name=".AllExamsPage" android:theme="@style/NoActionBar">
+        </activity>
+
+    </application>
+
+</manifest>
