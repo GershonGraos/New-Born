@@ -8,3 +8,4 @@ Android app for proper pregnancy management.
   * Registration of the prescribed tests.
   
   
+![logo](https://github.com/GershonGraos/New-Born/blob/master/app/src/main/baby1-web.png)
